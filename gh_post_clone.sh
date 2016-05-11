@@ -4,5 +4,8 @@
 cd $GREENHOUSE_BUILD_DIR
 curl https://install.meteor.com/ | sh
 
+cd src/
 ~/.meteor/meteor npm install
-~/.meteor/meteor build ios --server=$SERVER
+~/.meteor/meteor build ../build --server=$SERVER
+
+cd ..
