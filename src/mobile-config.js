@@ -1,8 +1,11 @@
 /* globals App */
 /* eslint-disable quote-props */
 
+
+App.accessRule('*');
+
 App.info({
-  name: 'Todos',
+  name: 'Todoit',
   description: 'A simple todo list app built in Meteor.',
   author: 'Percolate Studio Team',
   email: 'us@percolatestudio.com',
