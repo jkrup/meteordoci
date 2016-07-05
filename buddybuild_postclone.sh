@@ -6,7 +6,8 @@ curl https://install.meteor.com/ | sh
 
 cd src/
 ~/.meteor/meteor npm install
+~/.meteor/meteor npm install shelljs@0.5.3 # fix for shell.js bug w/ cordova code
 #~/.meteor/meteor build ../build --server=$SERVER
-~/.meteor/meteor build ../build --server=http://648e4bba.ngrok.io
+~/.meteor/meteor build ../build --server=http://5ef09806.ngrok.io
 
 cd ..
