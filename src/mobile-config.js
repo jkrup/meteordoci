@@ -6,6 +6,7 @@ App.accessRule('*');
 
 App.info({
   name: 'Todoit',
+  id: 'com.justinkrup.todoitapp',
   description: 'A simple todo list app built in Meteor.',
   author: 'Percolate Studio Team',
   email: 'us@percolatestudio.com',

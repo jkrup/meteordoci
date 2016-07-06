@@ -6,6 +6,7 @@ curl https://install.meteor.com/ | sh
 
 cd src/
 ~/.meteor/meteor npm install
+~/.meteor/meteor npm install shelljs@0.5.3
 ~/.meteor/meteor build ../build --server=$SERVER
 
 cd ..
